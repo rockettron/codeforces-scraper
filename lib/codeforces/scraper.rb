@@ -1,7 +1,5 @@
-require "codeforces/scraper/version"
-
-module Codeforces
-  module Scraper
-    # Your code goes here...
-  end
-end
+require 'nokogiri'
+require 'open-uri'
+require 'net/http'
+require 'codeforces/scraper/version'
+require 'codeforces/scraper/problem'
