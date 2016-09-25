@@ -1,5 +1,6 @@
 require 'nokogiri'
 require 'open-uri'
 require 'net/http'
+require 'json'
 require 'codeforces/scraper/version'
 require 'codeforces/scraper/problem'
